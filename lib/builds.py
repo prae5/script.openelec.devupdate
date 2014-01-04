@@ -339,7 +339,7 @@ URLS = OrderedDict((
                               extractor=ReleaseLinkExtractor)),
                    ("Official Archive",
                     BuildsURL("http://archive.openelec.tv", extractor=ArchiveLinkExtractor)),
-                   ("xbmcnightlybuilds",
+                   ("XBMCNightlyBuilds (Nightly Builds)",
                     BuildsURL("http://mirrors.xbmcnightlybuilds.com/OpenELEC_DEV_BUILDS",
                               subdir=ARCH.split('.')[0])),
                    ("Chris Swan (RPi)",
