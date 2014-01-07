@@ -361,6 +361,7 @@ URLS = OrderedDict((
                   ))
 
 URLS["MilhouseVH Builds"] = URLS["MilhouseVH Builds (RPi)"] # temporary fix
+URLS["xbmcnightlybuilds"] = URLS["XBMCNightlyBuilds (Nightly Builds)"] # temp fix to workaround repo rename
 
 if __name__ == "__main__":
     import sys
